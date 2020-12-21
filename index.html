@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamie C Robb</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero container">
+            <div class="left">
+                <img src="headshot.jpg">
+            </div>
+            <div class="right">
+                <h1>Hi, I'm Jamie.</h1>
+                <h2>I'm <span></span>.</h2>
+            </div>
+        </div>
+        <div class="about container" id="about">
+            <div class="left">
+                <p>I’m a 17 year old web developer, entrepreneur and student.</p>
+
+                <p>I’m studying for my A-Levels in Maths, Physics and Further Maths, and have had offers to study both Aerospace Engineering and Computer Science at university next year.</p>    
+                    
+                <p>I aspire to work on projects in the crossover between the space sector and web development, combining my passion for space with my creative side.</p>
+            </div>
+            <div class="right">
+                
+            </div>
+        </div>
+        <div class="projects container" id="projects">
+            <h2>My Projects</h2>
+            <div class="card">
+                <div class="left">
+                    <h3>DevDosh.com</h3>
+                    <p>DevDosh was built during a 24 hour Hackathon with 2 other coders as part of a challenge to create a personal finance product.</p>
+                    <p>I worked on the front-end design of it, using the project as an opportunity to learn more about CSS Grid and card-based layouts.</p>
+                </div>
+                <div class="right">
+                    <img src="devdosh.jpg">
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <h3>Sam's Bakery</h3>
+                    <p>Sam’s Bakery was one of my earlier projects where I focused on using BootStrap to make a minimal layout really quickly.</p>
+                    <p>I’ve now moved away from this sort of design as I prefer to use my own styles on my components.</p>
+                </div>
+                <div class="right">
+                    <img src="samsbakery.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="contact container" id="contact">
+            <form id="contact-form" method="post" action="handler.php">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <input type="text" name="message" placeholder="Your message..." required>
+                <button>Send</button>
+            </form>
+            <div class="right">
+                <p>Please reach out to me if you have any questions! I’m open to freelancing and collaboration opportunities, or just a chat!</p>
+                <p>You can also find me at:</p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/jamiecrobb/" target="_blank"><img src="social-1_round-instagram.svg"></a>
+                    <a href="https://twitter.com/jamiecrobb" target="_blank"><img src="social-1_round-twitter.svg"></a>
+                    <a href="https://www.linkedin.com/in/jamiecrobb/" target="_blank"><img src="social-1_round-linkedin.svg"></a>
+                    <a href="https://github.com/jamiecrobb" target="_blank"><img src="social-1_round-github.svg"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="footer">Website created in 2021 by Jamie Robb. Copyright Jamie Robb 2021.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
