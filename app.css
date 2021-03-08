@@ -1,5 +1,5 @@
 body {
-    background-image: url('background.jpg');
+    background-image: url('html-javascript-background-image.jpg');
     background-attachment: fixed;
     font-family: 'Source Code Pro', monospace;
     color: white;
@@ -60,6 +60,8 @@ h2 span::before {
 
 h1 {
     font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -72,6 +74,10 @@ h2 {
 
 .about .left {
     padding-left: 5vw;
+}
+
+#insta {
+    height: 80vh;
 }
 
 p {
@@ -171,3 +177,5 @@ form :nth-child(5) {
     font-size: 1em;
     text-align: center;
 }
+
+@media :width less tha
